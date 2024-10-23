@@ -1,0 +1,842 @@
+*{
+    margin: 0;
+    padding: 0;
+
+.main{
+    background-color:rgb(24, 23, 23) ;
+    background-image: url(pr25.png);
+    height: 100%;
+    width: 100%;
+}
+}
+    .main1{
+    background-color: rgb(24, 23, 23);
+    background-image: url(pr25.png);
+    width: 100%;
+    height: 100vh;
+}
+.sub1{
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    align-items: center;
+}
+.img1{
+    margin-left: -2vh;
+    height: 1rem;
+}
+.head1{
+    color: white;
+
+}
+.img2{
+    width: 15vh;
+    height: 7vh;
+    padding-top: 5vh;
+    padding:5vh 20vh 2vh 20vh;
+}
+.icons{
+    color: gray;
+}
+#icon1:hover{
+    color: white;
+}
+#icon2:hover{
+    color: white;
+}
+#icon3:hover{
+    color: white;
+}
+#icon4:hover{
+    color: white;
+}
+.icons i{
+    padding: 0vh 1vh  0vh 1vh ;
+}
+.sub2{
+    display: flex;
+    height: 10vh;
+    justify-content: space-around;
+    height: 10vh;
+    align-items: center;
+}
+#icon5{
+    padding-left: 2vh;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.anchor{
+    display: flex;  
+}
+.anchormiddle{
+    padding: 0vh 10vh 0vh 10vh;
+}
+.button1{
+    border-radius: 30rem;
+    height: 7vh;
+    width: 20vh;
+    background-color: red;
+    color: white;
+}
+.img3{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    filter: grayscale(20%) brightness(50%);
+}
+.sub3hed1{
+    position: absolute;
+    bottom: 20vh;
+    left: 3vh;
+    color: white;
+    font-size: 7rem;
+    text-align: center;
+    padding: 0vh 7vh;
+}
+.sub3hed2{
+    position: absolute;
+    bottom: 10vh;
+    left: 50vh;
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    margin-right: 50vh;
+    margin-left: 15vh;
+}
+.button2{
+    position: absolute;
+    bottom: -10vh;
+    color: white;
+    left: 80vh;
+    background-color: rgb(188, 145, 129);
+    border-radius: 30rem;
+    height: 7vh;
+    width: 20vh;
+}
+.button3{
+    position: absolute;
+    bottom: -10vh;
+    color: white;
+    left: 110vh;
+    background-color: rgb(44, 41, 41);
+    border-radius: 30rem;
+    height: 7vh;
+    width: 20vh;
+}
+.main2{
+    background-image: url(pr24.png);
+    height: 150vh;
+    width: 100%;
+    background-color: rgb(24, 23, 23);
+    background-repeat: no-repeat;
+    margin-top: 20vh;
+}
+.main2hed1{
+    text-align: center;
+    font-size: 5rem;
+    color: white;
+    padding: 15vh 70vh 5vh 20vh;
+    display: flex;
+    justify-content: center;
+}
+.sub4{
+    display: flex;
+    justify-content: space-between;
+}
+.img4{
+    height: 70vh;
+    padding: 0vh 10vh 0vh 15vh;
+}
+.img5{
+    height: 60vh;
+    padding: 0vh 15vh 0vh 0vh ;
+} 
+.sub4para1{
+    color: white;
+    padding: 0vh 10vh 0vh 2vh;
+    line-height: 2;
+}
+.sub4para2{
+    color: white;
+    padding: 5vh 10vh 0vh 2vh;
+    line-height: 2;
+}
+.button4{
+    background-color: rgb(180, 30, 30);
+    color: white;
+    border-radius: 30rem;
+    height: 7vh;
+    width: 20vh;
+    margin-top: 10vh;
+}
+.main3{
+    background-color:  rgb(24, 23, 23);
+    background-image: url(pr28.jpg);
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.main3sub1,.main3sub2,.main3sub3,.main3sub4{
+    color: white;
+    margin-top: 10vh;  
+}
+.main3 p{
+    line-height: 2;
+    padding: 5vh;
+}
+.button5,.button6,.button7,.button8{
+    background-color: transparent;
+    color: white;
+    border-radius: 30rem;
+    height: 7vh;
+    width: 20vh;
+    margin-top: 10vh;
+}
+button:hover {
+    background-color: rgb(180, 30, 30);
+    height: 8vh;
+}
+.main4{
+    background-color:rgb(24, 23, 23) ;
+    background-image: url(pr25.png);
+    height: 100%;
+    width: 100%;
+}
+.img6{
+    padding-top: 25vh;
+    text-align: center;
+}
+.main4para1{
+    text-align: center;
+    font-size: 4rem;
+    color: white;
+}
+.main4para2{
+    text-align: center;
+    padding: 3vh 60vh 10vh 60vh;
+    color: white;
+    line-height: 2;
+}
+.main4sub1{
+    border: 1px solid white;
+    border-radius: 5rem;
+    box-shadow: 0px  0px 20px 15px grey;
+    height: 130vh;
+    margin: 0vh 10vh 20vh 10vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    color: white;
+    padding: 10vh;
+}.img7{
+    height: 13vh;
+    width: 12vh;
+    margin-right: 5vh;
+    border-radius: 2vh;
+}
+.main4sub2,.main4sub3,.main4sub4,.main4sub5,.main4sub6,.main4sub7,.main4sub8,.main4sub9,.main4sub10,.main4sub11{
+    display: flex;
+}
+.main4para3{
+    padding-right: 5vh;   
+}
+.main4para3 h2{
+    padding-bottom: 3vh;
+}
+.main4para3 p{
+    color: gray;
+}
+.main5{
+    margin: 20vh 15vh 20vh 15vh;
+    color: white;
+}
+.main5sub1 h1{
+    font-size: 3rem;
+    margin-bottom: 5vh;
+}
+.main5sub2{
+    display: flex;
+    justify-content: space-between;
+}
+.main5sub2 p{
+    padding: 0vh 80vh 5vh 0vh;
+    color: grey;
+    line-height: 2;
+}
+.button9{
+    background: transparent;
+    color: white;
+    border-radius: 30rem;
+    height: 7vh;
+    width: 30vh;
+}
+.main5sub3{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.main5sub3 img{
+    height: 45vh;
+}
+.main5sub3 h1{
+    padding: 4vh 0vh 2vh 0vh;
+}
+.main5sub3 p{
+color: gray;
+}
+.main6{
+display: flex;
+justify-content: space-between;
+margin: 15vh;
+color: white;
+}
+.main6 img{
+height: 50vh;
+width: 35vh;
+}
+.main7{
+color: white;
+display: flex;
+margin: 15vh;
+}
+.img13{
+width: 90vh;
+}
+.img14{
+padding: 5vh 0vh 0vh 15vh;
+width: 60vh;
+}
+.main7sub1{
+text-align: center;
+}
+.main7sub1 h1{
+font-size: 3rem;
+padding: 5vh 25vh 5vh 0vh;
+}
+.main7sub1 p{
+padding: 0vh 25vh 0vh 0vh;
+color: gray;
+line-height: 2;
+}
+.main7sub2 p{
+padding: 0vh 0vh 0vh 25vh;
+line-height: 2;
+}
+.main8{
+margin: 15vh;
+}
+.main8sub1{
+border: 1px solid black;
+background-color: rgb(22, 19, 19);
+height: 60vh;
+}
+.main8sub1{
+position: relative;
+}
+.main8sub1 h1{
+font-size: 3rem;
+position: absolute;
+top: 10vh;
+left: 50vh;
+color: white;
+}
+.main8sub1 p{
+position: absolute;
+top: 20vh;
+left: 65vh;
+color: white;
+
+}
+.input1{
+position: absolute;
+top: 25vh;
+left: 20vh;
+width: 55vh;
+height: 7vh;
+color: white;
+background: transparent;
+padding-left: 5vh;
+
+}
+.input2{
+position: absolute;
+top: 25vh;
+left: 85vh;
+width: 55vh;
+height: 7vh;
+color: white;
+background: transparent;
+padding-left: 5vh;
+}
+.input3{
+position: absolute;
+top: 35vh;
+left: 20vh;
+width: 35vh;
+height: 7vh;
+color: white;
+background: transparent;
+padding-left: 5vh;
+
+}
+.input4{
+position: absolute;
+top: 35vh;
+left: 65vh;
+width: 25vh;
+height: 7vh;
+color: white;
+background: transparent;
+padding-left: 5vh;
+}
+.input5{
+position: absolute;
+top: 35vh;
+left: 100vh;
+width: 40vh;
+height: 7vh;
+color: white;
+background: transparent;
+padding-left: 5vh;
+}
+.button10{
+position: absolute;
+top: 50vh;
+left: 65vh;
+background: transparent;
+color: white;
+border-radius: 30rem;
+height: 7vh;
+width: 20vh;
+}
+.main9{
+margin: 15vh;
+color: white;
+border-bottom: 1px dashed lightgrey;
+}
+.main9sub1{
+text-align: center;
+color: white;
+}
+.main9sub1 h1{
+font-size: 3rem;
+margin: 3vh 0vh 3vh 0vh;
+}
+.main9sub1 p{
+margin: 0vh 50vh 5vh 50vh;
+line-height: 2;
+color: gray;
+}
+.img17{
+width: 50vh;
+margin-bottom: 3vh;
+}
+.main9sub2{
+display: flex;
+justify-content: space-evenly;
+position: relative;
+}
+.main9sub2p1{
+border: 1px solid black;
+background-color: rgb(22, 19, 19);
+width: 7vh;
+height: 4vh;
+border-radius: 1vh;
+padding: 2vh 1vh 2vh 1vh;
+position: absolute;
+top: 5vh;
+left: 38vh;
+}
+.main9sub2p2{
+border: 1px solid black;
+background-color: rgb(22, 19, 19);
+width: 7vh;
+height: 4vh;
+border-radius: 1vh;
+padding: 2vh 1vh 2vh 1vh;
+position: absolute;
+top: 5vh;
+left: 95vh;
+}
+.main9sub2p3{
+border: 1px solid black;
+background-color: rgb(22, 19, 19);
+width: 7vh;
+height: 4vh;
+border-radius: 1vh;
+padding: 2vh 1vh 2vh 1vh;
+position: absolute;
+top: 5vh;
+left: 150vh;
+}
+.main9sub3{
+display: flex;
+}
+.main9sub3 p{
+padding-right: 10vh;
+padding-left: 3vh;
+}
+.main9sub2 h1{
+padding: 3vh 0vh 3vh 0vh;
+}
+.main10 img{
+width: 35vh;
+}
+.main10{
+margin: 15vh;
+display: flex;
+justify-content: space-evenly;
+}
+.main11{
+margin: 15vh;
+padding-bottom: 15vh;
+text-align: center;
+color: white;
+border-bottom: 1px dashed lightgray;
+}
+.main11 p{
+padding: 5vh 60vh 5vh 60vh;
+color: gray;
+}
+.main11 input{
+width: 80vh;
+height: 7vh;
+color: white;
+background: transparent;
+padding-left: 5vh;
+border: 1px solid white;
+border-radius: 2vh;    
+}
+.button11{
+background: transparent;
+color: white;
+border-radius: 30rem;
+height: 7vh;
+width: 20vh;
+}
+.main12{
+color: white;
+display: flex;
+margin: 15vh;
+justify-content: space-evenly;
+border-bottom: 1px dashed gray;
+padding-bottom: 15vh;
+}
+.main12sub1 h2{
+margin: 0vh 0vh 5vh 0vh;
+}
+.main12sub1 {
+display: flex;
+flex-direction: column;
+}
+.main12sub1 a{
+padding: 1vh 0;
+color: gray;
+}
+.main13{
+padding-bottom: 5vh;
+color:white;
+text-align: center;
+}
+@media screen and (width<=576px) {
+
+    .main{
+        background-color:rgb(24, 23, 23) ;
+        background-image: url(pr25.png);
+        width: 100%;
+    }
+    .sub1{
+        display: block;
+        text-align: center;
+        height: 25vh;
+   }
+   .sub2{
+    text-align: center;
+    display: block;
+    height: 20vh;
+   }
+   .anchor{
+    display: block;
+    margin-top: 2vh;
+   }
+   .button1{
+    height: 3vh;
+    width: 15vh;
+    text-align: center;
+    margin-top: 2vh;
+   }
+   .img3{
+    width: 50vh;
+    height: 50vh;
+   }
+   .sub3hed1{
+    font-size: 3rem;
+   }
+   .sub3{
+    text-align: center;
+   }
+   .sub3hed2{
+    font-size: 1rem;
+    bottom: 5vh;
+    left: 1vh;
+    text-align: center;
+    margin: 9vh;
+   }
+   .button2{
+    left: 15vh;
+    top: 90vh;
+    background-color: rgb(188, 145, 129);
+    border-radius: 30rem;
+    height: 3vh;
+    width: 15vh;
+   }
+   .button3{
+    left: 35vh;
+    top: 90vh;
+    background-color: rgb(188, 145, 129);
+    border-radius: 30rem;
+    height: 3vh;
+    width: 15vh;
+   }
+    .main2{
+        margin-top: 0vh;
+    }
+  .sub4{
+    display: block;
+   }
+    .main2hed1{
+        font-size: 2rem;
+        text-align: center;
+        margin:0vh 20vh;
+    }
+    .img4,.img5{
+        text-align: center;
+        height: 30vh;
+        padding: 1vh 30vh;
+    }
+    .sub4para1,.sub4para2{
+        text-align: center;
+        padding: 0vh 7vh ;
+    }
+    .button4{
+        display: none;
+    }
+    .main3{
+        display: block;
+        height: 100vh;
+        text-align: center;
+        margin: 0vh;
+        
+    }
+    .button5,.button6,.button7,.button8{
+        margin-top: 0vh;
+        height: 5vh;
+        width: 10vh;
+    }
+    .main3 h1{
+        font-size: 2rem;
+        margin: 2vh;
+        padding: 0vh;
+    }
+    .main3 p{
+        margin: 0vh;
+        padding: 0vh 10vh;
+    }
+    .main3sub1,.main3sub2,.main3sub3,.main3sub4{
+        margin-top: 0vh;
+        
+    }
+    #icon6,#icon7,#icon8,#icon9{
+        display: none;
+    }
+    .img6{
+        padding: 2vh;
+    }
+    .main4para1{
+        font-size: 2.5rem;
+        text-align: center;  
+    }
+    .main4para2{
+        font-size: 1rem;
+        text-align: center;
+        padding: 4vh;
+    }
+    .main4sub1{
+        display: block;
+        height: 100%;
+    }
+    .main4sub1 p{
+        display: none;
+    }
+    .main4sub1 img{
+        margin-bottom: 3vh;
+    }
+    .main4sub1 h3{
+       display:none;
+    }
+    .main4sub1 h4{
+        display:none;
+     }
+     .main4sub1 h1{
+        padding: 1vh;
+     }
+     .main5sub1 h1{
+        text-align: center;
+        font-size: 2rem;
+     }
+     .main5sub2 p{
+        padding: 0;
+     }
+     .main5sub3{
+        display: block;
+        justify-content: center;
+     }
+     .main5sub3 img{
+        height: 30vh;
+        margin: 0vh;
+     }
+     .main5sub3 h1{
+        padding: 0vh;
+        font-size: 2rem; 
+     }
+     .main6{
+        margin: 0vh 30vh;
+        display: block;
+        color: white;
+       }
+       .main6 img{
+        height: 25vh;
+        width: 26vh;
+       }
+       .main6 h1{
+        font-size: 1.2rem;
+        margin-bottom: 3vh;
+       }
+      .main7{
+        padding-bottom: 0vh;
+        margin: 0vh 28vh;
+        display: block;
+      }
+       .img13{
+        width: 25vh;
+        margin: 2vh ;
+        padding-right: 25vh;
+       }
+       .main7sub1 h1{
+        font-size: 1.5rem;
+        padding: 0;
+       }
+       .main7sub1 p{
+        padding: 0;
+       }
+       .main7sub2 p{
+        padding: 0;
+        display: none;
+       }
+       .img14{
+        width: 25vh;
+        margin: 2vh ;
+        padding: 0;
+       }
+       .main8{
+        padding: 0vh;
+       }
+       .main8 h1{
+       display: none;
+       }
+       .main8 p{
+       display: none;
+       }
+       .img15{
+        width: 40vh;
+       }
+       .main8sub1{
+        height: 30vh;
+        width: 50vh;
+       }
+
+       .input1{
+        top: 5vh;
+        left: 2vh;
+        width: 15vh;
+        height: 3vh;
+       }
+       .input2{
+        top: 5vh;
+        left: 25vh;
+        width: 15vh;
+        height: 3vh;
+       }
+       .input3{
+        top: 10vh;
+        left: 2vh;
+        width: 8vh;
+        height: 3vh;
+       }
+       .input4{
+        top: 10vh;
+        left: 18vh;
+        width: 8vh;
+        height: 3vh;
+       }
+       .input5{
+        top: 10vh;
+        left: 35vh;
+        width: 8vh;
+        height: 3vh;
+       }
+       .button10{
+        top: 20vh;
+        left: 18vh;
+        height: 5vh;
+        width: 12vh;
+        font-size: 0.5rem;
+       }
+       .main9sub1 p{
+        padding: 0;
+        margin: 0;
+       }
+       .main9sub1 h1{
+        font-size: 1.7rem;
+       }
+       .main9sub2 h1{
+        font-size: 1.2rem;
+       }
+
+       .main9sub2{
+        display: block;
+       }
+       .main9sub2 img{
+        width: 30vh;
+        margin: 0vh 10vh;
+       }
+       .main9sub2p1,.main9sub2p2,.main9sub2p3{
+        display: none;
+       }
+       .main10{
+        display: block;
+        margin: 25vh;
+       }
+       .main10 img{
+        padding-bottom: 5vh;
+       }
+
+       .main11 p{
+        padding: 0;
+       }
+       .main11 input{
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        width: 30vh;
+       }
+       .main12{
+        display: block;
+       padding: 0vh;
+       }
+       .main12 h2{
+        margin: 0vh;
+       }
+}
